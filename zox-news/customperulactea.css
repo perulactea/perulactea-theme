@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i');
+
+#main .fusion-row {
+    max-width: 1250px;
+	  padding-top: 15px;
+}
+
+.mvp-post-main-in {
+    margin-right: 0;
+}
+
+#mvp-foot-top , #mvp-foot-bot{
+    background-color: #ec3237;
+    padding: 40px 0;
+	  color: #fff;
+}
+
+#mvp-foot-bot p{
+    color: #fff;
+}
+
+.perulactea-search-top .mvp-nav-search-but {
+    color: #fff;
+}
+
+.fusion-row {
+    margin: 0 auto;
+    zoom: 1;
+}
+
+.fusion-row:after, .fusion-row:before {
+    content: " ";
+    display: table;
+}
+
+.fusion-row:after {
+    clear: both;
+}
+
+.fusion-row:after, .fusion-row:before {
+    content: " ";
+    display: table;
+}
+
+body .has-sidebar.double-sidebars #content, body .has-sidebar.double-sidebars #mvp-article-wrap {
+    width: 60%;
+    margin-left: 20%;
+}
+
+body .has-sidebar.double-sidebars  #sidebar {
+    width: 17%;
+    margin-left: -80%;
+	text-align:left;
+}
+
+body .has-sidebar.double-sidebars  #sidebar-2 {
+    width: 17%;
+    margin-left: 3%;
+	text-align:right;
+}
+
+.has-sidebar.double-sidebars .mvp-main-box,.has-sidebar.double-sidebars .mvp-main-blog-out{
+    width: auto;
+}
+
+.perulactea-ads iframe {
+    max-width: inherit;
+}
+
+.mvp-main-box-header-perulactea {
+    margin: 0 auto;
+    width: 1200px;
+    height: 100%;
+}
+
+#mvp-leader-wrap img {
+    width: 100%;
+}
+
+#mvp-nav-bot-wrap span.mvp-nav-search-but:hover {
+    color: white;
+}
+
+@media only screen and (max-width: 800px){
+.sidebar-perulactea {
+    width: 100%!important;
+    float: none!important;
+    margin-left: 0!important;
+    clear: both;
+	text-align: center !important;
+}
+.has-sidebar.double-sidebars #content, .has-sidebar.double-sidebars #mvp-article-wrap{
+    width: 100%!important;
+    margin-left: 0!important;
+}
+}
+
+
+/*Banners top*/
+.top-banners-perulactea {
+    text-align: center;
+    position: relative;
+	  background: #f6f5f5;;
+}
+
+.top-banners-perulactea .top-banner{
+    display: inline-block;
+}
+
+@media only screen and (max-width: 799px){
+	.top-banners-perulactea .top-banner{
+    display: block;
+}
+	
+.perulactea-iframe-cel{
+		/*display: inline-block;*/
+}
+	
+	.perulactea-iframe-web{
+		display:none;
+	}
+}
+
+@media only screen and (min-width: 800px){
+	.perulactea-iframe-cel{
+		display: none;
+	}
+	
+	.perulactea-iframe-web{
+		display:block;
+	}
+}
+
+
+/*LOGO PERULACTEA*/
+a.mvp-nav-logo-reg img {
+    width: 64%;
+	    padding-top: 18px;
+}
+
+.ad-perulactea-sidelogo{
+	width: 450px !important;
+    margin-left: -55px;
+}
+
+#mvp-main-nav-top{
+	height:105px;
+	padding: 9px 0 18px;
+}
+
+.mvp-nav-top-mid {
+    width: 68%;
+}
+
+.mvp-fixed .ad-perulactea-sidelogo {
+    display: none;
+}
+
+@media only screen and (max-width: 1124px){
+	.ad-perulactea-sidelogo{
+	display:none
+}
+	.mvp-nav-top-mid {
+    width: 100%;
+}
+	
+	/*.perulactea-iframe-top-cel{
+ display:block;
+	}*/
+}
+
+@media only screen and (min-width: 1125px){
+	.perulactea-iframe-top-cel{
+ display:none;
+	}
+}
+
+/*Ajustes 26/02*/
+.mvp-widget-dark-left {
+    width: 55%;
+}
+
+/*Redes sociales en post 27/02*/
+#mvp-post-head {
+	margin-bottom: 15px;
+}
+
+#mvp-article-wrap .mvp-post-soc-wrap {
+    margin-right: 0px;
+    width: auto;
+    display: inline-block;
+}
+#mvp-article-wrap .mvp-post-soc-in {
+    margin-left: 0px;
+}
+
+#mvp-article-wrap ul.mvp-post-soc-list li {
+    margin-right: 5px;
+}
+
+#mvp-article-wrap h1.mvp-post-title {
+    margin-right: 0%;
+    width: 100%;
+}
+
+
+/*Cambios estilos header.php - MARZO*/
+
+#mvp-main-nav-top {
+    box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.08), 0 6px 20px 0 rgba(0, 0, 0, 0.01);
+}
+
+#mvp-main-body-wrap{
+    background: #f6f5f5;
+}
+
+.perulactea-content{
+	background:white;
+}
+
+/*POST CONTENT*/
+.wp-block-image {
+    text-align: center;
+}
+
+.mvp-blog-story-text p, span.mvp-author-page-desc, #mvp-404 p, .mvp-widget-feat1-bot-text p, .mvp-widget-feat2-left-text p, .mvp-flex-story-text p, .mvp-search-text p, #mvp-content-main p, .mvp-post-add-main p, #mvp-content-main ul li, #mvp-content-main ol li, .rwp-summary, .rwp-u-review__comment, .mvp-feat5-mid-main-text p, .mvp-feat5-small-main-text p {
+    text-align: justify;
+}
+
+/*Página 404*/
+#mvp-404 p {
+    text-align: center;
+}
+
+/*Meny fly - no se muestra en web*/
+nav.mvp-fly-nav-menu ul li a {
+    color: white;
+}
+nav.mvp-fly-nav-menu ul li a:hover {
+    color: white !important;
+}
+@media only screen and (min-width: 800px){
+.mvp-nav-bot-left.left.relative.fly-menu-perulactea {
+    display: none;
+}}
+
+.mvp-nav-bot-left-in.main-menu-perulactea {
+    margin-left: 0px;
+}
+
+
+/*CAMBIOS EN ESTRUCTURA DE HEADER*/
+.perulactea-menu-toggle {
+    width: 30px;
+}
+@media only screen and (min-width: 800px){
+.perulactea-logo {
+    margin-left: 0px;
+	}}
+
+.perulactea-logo .mvp-nav-top-mid {
+    width: 45%;
+}
+
+.mvp-nav-top-right-in {
+    margin-right: 0px;
+}
+
+/*FONDO BLANCO*/
+.page #mvp-post-main {
+    background: white;
+    padding: 0px 18px;
+    margin-left: -17px;
+}
+
+/*LINKS SUPERIORES*/
+.perulactea-links-top a {
+    color: white;
+    line-height: 1.5;
+    font-family: 'Oswald', sans-serif;
+}
+
+.mvp-fixed .mvp-nav-top-right.perulactea-links-top {
+    display: none;
+}
+
+.mvp-nav-top-right.perulactea-links-top {
+  padding-top: 20px;
+	display:inline-flex;
+}
+
+@media only screen and (max-width: 1003px){
+.mvp-nav-top-right.perulactea-links-top {
+    display: none;
+}}
+
+
+.mvp-blog-story-text p, span.mvp-author-page-desc, #mvp-404 p, .mvp-widget-feat1-bot-text p, .mvp-widget-feat2-left-text p, .mvp-flex-story-text p, .mvp-search-text p, #mvp-content-main p, .mvp-post-add-main p, #mvp-content-main ul li, #mvp-content-main ol li, .rwp-summary, .rwp-u-review__comment, .mvp-feat5-mid-main-text p, .mvp-feat5-small-main-text p {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+}
+
+#mvp-article-wrap h1.mvp-post-title {
+    text-align: center;
+}
+
+/*SEARCH IN TOP*/
+.perulactea-search-top .mvp-nav-search-but {
+    display: block !important;
+}
+
+.perulactea-search-top .mvp-nav-search-but {
+    padding-left: 25px;
+    padding-top: 25px;
+}
