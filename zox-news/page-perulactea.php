@@ -1,5 +1,5 @@
 <?php
-	/* Template Name: Perulactea2019 */
+	/* Template Name: Perulactea */
 ?>
 <?php get_header(); ?>
 <main id="main" role="main" class="clearfix has-sidebar double-sidebars" style="">
